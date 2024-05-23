@@ -1,0 +1,43 @@
+/* ticketTable.css */
+
+.table-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .ticket-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .ticket-table th, .ticket-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .ticket-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .ticket-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .ticket-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .ticket-table th, .ticket-table td {
+    padding: 12px 15px;
+  }
+  
+  .ticket-table td.text-center {
+    text-align: center;
+  }
+  
