@@ -1,0 +1,30 @@
+.reply-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .reply-form-label {
+    font-weight: bold;
+  }
+  
+  .reply-form-text {
+    margin-bottom: 10px;
+  }
+  
+  .reply-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .reply-form-submit {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
