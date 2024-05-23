@@ -1,0 +1,24 @@
+.navbar {
+    background-color:white;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+  }
+  
+  .navbar-items {
+    display: flex;
+    justify-content: flex-end; /* Align links to the right */
+    align-items: center;
+    height: 100%;
+  }
+  
+  .navbar-items a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+    margin-left: 20px; /* Add margin between links */
+  }
+  
+  .navbar-items a:hover {
+    color: #0056b3;
+  }
+  
