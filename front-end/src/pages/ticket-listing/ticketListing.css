@@ -1,0 +1,77 @@
+/* ticketListings.css */
+
+.container {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+    align-items: center;
+  }
+  
+  .col {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .align-center {
+    align-items: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .custom-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3;
+  }
+  
+  hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .search-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .search-form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-form button:hover {
+    background-color: #0056b3;
+  }
+  
