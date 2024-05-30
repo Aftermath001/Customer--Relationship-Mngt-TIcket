@@ -6,7 +6,7 @@ import './breadcrumbs.css'; // Import custom CSS
 const BreadCrumbs = ({ page }) => {
   return (
     <div className="breadcrumbs">
-      <Link to="/" className="breadcrumb-link">Home</Link> / <span className="breadcrumb-current">{page}</span>
+      <Link to="/dashboard" className="breadcrumb-link">Home</Link> / <span className="breadcrumb-current">{page}</span>
     </div>
   );
 };
